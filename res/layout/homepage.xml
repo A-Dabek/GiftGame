@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backgroundmain"
+    android:focusableInTouchMode="false"
+    tools:context=".Homepage" >
+
+<TextView
+    android:id="@+id/empty"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"
+    android:text="GAME MODE"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+    android:id="@+id/option1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/empty"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:text="CASUAL"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+    android:id="@+id/option2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/option1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:text="ADVANCED"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+    android:id="@+id/exit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/empty"
+    android:layout_below="@+id/option3"
+    android:layout_marginTop="50dp"
+    android:text="Nah, Im Done"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+    android:id="@+id/option3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/option2"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:text="PLAIN FUN"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
